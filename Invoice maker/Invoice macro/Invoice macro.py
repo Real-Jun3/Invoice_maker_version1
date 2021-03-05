@@ -23,11 +23,11 @@ for file_name_raw in file_list:
     result.append(ws['C9'].value)
     result.append(ws['D9'].value)
     result.append(ws['E9'].value)
-    # result.append(ws['F9'].value)
-    # result.append(ws['G9'].value)
-    # result.append(ws['H9'].value)
-    # result.append(ws['I9'].value)
-    # result.append(ws['K9'].value)
+    result.append(ws['F9'].value)
+    result.append(ws['G9'].value)
+    result.append(ws['H9'].value)
+    result.append(ws['I9'].value)
+    result.append(ws['K9'].value)
 
     results.append(result)
     result = []
